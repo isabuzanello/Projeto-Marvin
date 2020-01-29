@@ -1,4 +1,3 @@
 function finais(palavra) {
-  return palavra.substring(1,4);
+    return palavra.substring(palavra.length- 3);
 }
-
