@@ -1,4 +1,3 @@
 function minusculo(palavra){
-    String(palavra)
-    return palavra.charAt(0);
+    return palavra.toLowerCase().charAt(0);
 }
