@@ -2,13 +2,13 @@ function acharNumero(numero){
     if (numero < 5){
     return "mercurio"    
     }
-    if (5<=numero<=10){
+    if (5<=numero && numero<=10){
         return "venus"
     }
-    if (10<numero<=100){
+    if (10<numero && numero<=100){
         return "terra"
     }
-    if (numero<100){
+    if (numero>100){
         return "marte"
     }
 }
