@@ -11,5 +11,5 @@ function fizzbuzz(num1, num2){
        console.log(i);
         i += 1;
 }
-return num2;
+
 }
