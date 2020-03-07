@@ -4,6 +4,5 @@ function entreNumeros(min, max){
         console.log(i);
         i++;
     }
-  return max;
+ 
 }
-
