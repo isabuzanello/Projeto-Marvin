@@ -8,4 +8,5 @@ function por42(num1, num2){
        min ++;
        
     }console.log("Não encontrado");
+    return false;
 }
