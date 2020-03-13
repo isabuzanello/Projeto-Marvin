@@ -1,6 +1,6 @@
 function fizzbuzz(num1, num2){
     var i = num1;
-   while (i <= num2){
+   while (i < num2){
    if (i%3===0 &&  i%5===0) {
        console.log(i+ " "+"FizzBuzz");
     } else if (i%3===0) {
@@ -11,5 +11,6 @@ function fizzbuzz(num1, num2){
        console.log(i);
         i += 1;
 }
+return num2
 
 }
