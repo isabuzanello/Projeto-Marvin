@@ -8,5 +8,7 @@ function ateZero(num){
       console.log(i);
       i = i-1
    }
+   return num
 
 }
+
