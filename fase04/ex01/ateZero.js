@@ -1,6 +1,6 @@
 function ateZero(num){
     var i = 0;
-   while (i < num){
+   while (i <= num){
       console.log(i);
       i = i+1
    }
@@ -8,6 +8,5 @@ function ateZero(num){
       console.log(i);
       i = i-1
    }
-   return num
-
+return num
 }
