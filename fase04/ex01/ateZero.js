@@ -4,11 +4,10 @@ function ateZero(num){
       console.log(i);
       i = i+1
    }
-    while (i > num){
+    while (i >= num){
       console.log(i);
       i = i-1
    }
    return num
 
 }
-
