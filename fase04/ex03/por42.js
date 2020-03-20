@@ -1,7 +1,7 @@
 function por42(num1, num2){
     var min=num1;
     var max=num2;
-    while(min<max){
+    while(min<=max){
         if(min%84===0){
             return min;
         }
@@ -10,3 +10,4 @@ function por42(num1, num2){
     }console.log("Não encontrado");
     return false;
 }
+
