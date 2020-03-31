@@ -1,12 +1,13 @@
 function ateZero(num){
     var i = 0;
-   while (i <= num){
+    var y = num;
+  if (i <= y){
+       while (i <= y){
       console.log(i);
       i = i+1
-   }
-    while (i >= num){
-      console.log(i);
-      i = i-1
-   }
-return num
+   }} else {while (y <= i ){
+      console.log(y);
+      y = y+1
+   }}
+
 }
